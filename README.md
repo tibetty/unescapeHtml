@@ -11,5 +11,5 @@ npm i unescapeHtmlText
 
 ## Usage
 ```javascript
-const uht = require('unescapeHtmlText');
+const uht = require('unescapehtmltext');
 console.log(uht('&Omicron; &#169; &#99999; &amp; &lt;Hello, World!&gt;'));
