@@ -243,7 +243,7 @@ module.exports = s => s.replace(/&[#a-z0-9]+?;/ig, m => {
 			};
 			let c = entities[m];
 			if (c) return c;
-			if (m.match(/^&#([0-9]{1,4}});$/)) return String.fromCharCode(parseInt(/^&#([0-9a-f]+);$/i.exec(m)[1]));
-			if (m.match(/^&#x([0-9a-f]{1,4}});$/i)) return String.fromCharCode(parseInt(/^&#x([0-9a-f]+);$/i.exec(m)[1], 16));
+			if (m.match(/^&#[0-9]{1,4};$/i)) return String.fromCharCode(parseInt(/^&#([0-9a-f]+);$/i.exec(m)[1]));
+			if (m.match(/^&#x[0-9a-f]{1,4};$/i)) return String.fromCharCode(parseInt(/^&#x([0-9a-f]+);$/i.exec(m)[1], 16));
 			return m;
 		});
