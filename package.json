@@ -1,0 +1,26 @@
+{
+  "name": "unescapehtml",
+  "version": "0.0.5",
+  "description": "A utility function to unescape a string containing legally-html-escaped entities to the plain text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tibetty/unescapeHtml.git"
+  },
+  "keywords": [
+    "unescape",
+    "html",
+    "text",
+    "most",
+    "entities"
+  ],
+  "author": "tibetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tibetty/unescapeHtml/issues"
+  },
+  "homepage": "https://github.com/tibetty/unescapeHtml#readme"
+}
