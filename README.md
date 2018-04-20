@@ -1,4 +1,4 @@
-unescapeHtmlText
+unescapehtmltext
 ==========
 
 A utility function to unescape a string containing legally-html-escaped entities to the plain text
