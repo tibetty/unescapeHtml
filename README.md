@@ -6,7 +6,7 @@ A utility function to unescape a string containing legally-html-escaped entities
 ## Installation
 
 ```
-npm i unescapeHtmlText
+npm i unescapehtmltext
 ```
 
 ## Usage
