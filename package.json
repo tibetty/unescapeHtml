@@ -1,6 +1,6 @@
 {
-  "name": "unescapeHtmlText",
-  "version": "0.5.0",
+  "name": "unescapehtmltext",
+  "version": "0.0.5",
   "description": "A utility function to unescape a string containing legally-html-escaped entities to the plain text",
   "main": "index.js",
   "scripts": {
